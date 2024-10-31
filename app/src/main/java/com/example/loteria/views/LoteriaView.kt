@@ -59,7 +59,7 @@ fun LotteryNumbers(lottoNumbers: List<Int>) {
                 modifier = Modifier
                     .padding(horizontal = 8.dp)
                     .size(48.dp)
-                    .background(Color.Red, CircleShape)
+                    .background(Color.Magenta, CircleShape)
             ) {
                 Text(
                     text = number.toString(),
